@@ -1,5 +1,5 @@
 {
-  "name": "appengine-EI-landing",
+  "name": "appengine-ei-landing",
   "description": "Simple landing page server app nodejs.",
   "version": "0.0.1",
   "private": true,
@@ -7,7 +7,7 @@
   "author": "CODES Consultoria y Desarrollo de Sisteas SA de CV- ChronOOmega",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GoogleCloudPlatform/nodejs-docs-samples.git"
+    "url": "git+https://github.com/omartiznado/EINodeServer.git"
   },
   "engines": {
     "node": "8.x.x"
@@ -22,7 +22,8 @@
     "e2e-test": "samples test deploy"
   },
   "dependencies": {
-    "express": "4.16.2"
+    "express": "^4.16.2",
+    "mysql": "^2.15.0"
   },
   "devDependencies": {
     "@google-cloud/nodejs-repo-tools": "2.2.1"
@@ -35,5 +36,14 @@
     },
     "requiresKeyFile": true,
     "requiresProjectId": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/omartiznado/EINodeServer/issues"
+  },
+  "homepage": "https://github.com/omartiznado/EINodeServer#readme",
+  "main": "app.js",
+  "keywords": [
+    "landing",
+    "page"
+  ]
 }

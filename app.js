@@ -17,11 +17,17 @@
 
 // [START app]
 const express = require('express');
+// EI Landing logic
+var eiLandings = require('./landings/eiLanding');
 
 const app = express();
 
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, world EI!').end();
+  eiLandings.eiLandingProcess(res);
+});
+
+app.post('/', function (req, res) {
+  eiLandings.eiLandingProcess(res);
 });
 
 // Start the server
