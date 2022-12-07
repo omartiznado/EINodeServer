@@ -22,7 +22,7 @@
     "e2e-test": "samples test deploy"
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "mysql": "^2.15.0"
   },
   "devDependencies": {
